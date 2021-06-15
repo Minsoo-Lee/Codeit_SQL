@@ -1,0 +1,7 @@
+SELECT * FROM item
+UNION
+SELECT * FROM item_new;
+
+SELECT * FROM item
+UNION ALL
+SELECT * FROM item_new;
